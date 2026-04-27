@@ -31,7 +31,6 @@ Raftクラスタ（Go・3ノード）
 | GET | `/cluster/status` | Raftクラスタの状態確認 |
 | POST | `/store/{key}` | データをRaftクラスタに保存 |
 | GET | `/store/{key}` | データをRaftクラスタから取得 |
-| GET | `/ai/summarize` | 保存データの要約（Claude API連携予定） |
 
 ## 起動方法
 
